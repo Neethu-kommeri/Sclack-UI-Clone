@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  
+}
+.navbar{
+    background-color: #400d40;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left{
+    margin-left: 200px;
+}
+header{
+    height: 200px;
+}
+.nav-links{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.nav-links a{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.nav-links .btn{
+    background-color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.material-symbols-outlined{
+    cursor: pointer;
+}
+.nav-links .btn:hover {
+    background-color:#400d40;
+    color: white;
+    border: 1px solid white;
+}
+.welcome-section{
+    text-align: center;
+    padding: 40px;
+    background-color: #400d40;
+
+}
+.welcome-section h2{
+    font-size: 50px;
+    color: white;
+}
+.workspace{
+    background-color: #ecdeec;
+    width:800px;
+    display: flex;
+    margin-left: 400px;
+    height: 100px;
+   
+}
+.workspace h3{
+    font-size: 20px;
+    color:black;
+    margin-bottom: 20px;
+}
+.workspace-card{
+background-color: white;
+width:800px;
+display: flex;
+margin-left: 400px;
+height: 150px;
+   
+}
+.workspace-info{
+
+    background-color: #F3E9FF;
+    width: 300px;
+    height: 50px;
+    display: flex;
+  margin-top: 30px;
+    align-items: center;
+    margin-left: 20px;
+    border-radius: 5px;
+    
+}
+.workspace-icon{
+    display: flex;
+    margin-top: 0;
+    background-color: white;}
+
+     
+
+.btn-launch{
+    margin-left: 400px;
+  width:200px;
+  height: 60px;
+  margin-top: 20px;
+  border-radius: 10px;
+    background-color: #400d40;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;}
+    .section-footer{
+        background-color: #400d40;
+    }
+    .btn-launch:hover {
+        background-color:white;
+        color: black;
+        border: 1px solid black;
+    }
+        .new-workspace{
+            background-color: #400d40; 
+            height:140px;
+        }
+        .new-workspacelast{
+            text-align: center;
+   margin-left: 440px;
+   width: 800px;
+   height: 100px;
+          background-color: white;
+    align-items: center;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+     
+        }
+        .btn-create{
+            background-color: white;
+    border: 1px solid black;
+    padding: 10px 15px;
+    margin-left: 100px;
+    cursor: pointer; 
+        }
+        .btn-create:hover{
+            background-color:#400d40;
+    color: white;
+    border: 1px solid white;
+        }
+.new-workspaceimg{
+    margin-top: 30px;
+}
